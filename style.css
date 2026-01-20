@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Top Header Design */
+
+.top-header {
+  width: full;
+  height: 48px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 48px;
+}
+
+.top-header p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.top-header p span {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/* Navigation Bar Design */
+
+.navbar {
+  width: full;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar-options ul {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.navbar-options ul li {
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.navbar-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-actions .navbar-search {
+  width: auto;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* border: 1px solid black; */
+  padding: 0 15px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar-actions .navbar-search input {
+  border: none;
+  background-color: transparent;
+}
